@@ -1,0 +1,122 @@
+body {
+			font-family: 'Droid Arabic Naskh', serif,'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           text-align: justify;
+           background-color: #eeeeee;
+        }
+	h1{
+			font-size:60px;
+			font-family: Helvetica;
+			outline: #626466 solid 4px ;  /*this made a block around all the area long one*/
+			display:inline-block;   /*this made the block around only the text*/
+			vertical-align: middle; /*it didn't change anything*/
+			text-align: center; /*it didn't change anything too*/
+			text-decoration: none;
+			margin-top: 7;
+			margin-bottom: 0;
+			padding-top: 10px;
+			padding-bottom: 15px;
+			padding-right: 20px;
+			padding-left: 20px;
+	}
+
+ 	ul {
+			list-style-type: none;
+			padding-left: 0;  /*this made d list go a bit to d left*/
+        }
+
+	header
+		{
+			text-align: center;
+			display: table;
+			width: 100%;
+			margin: -1px -2px;
+			padding-top: 30px;
+			background-color: #ffffff;
+			/*height: 300px;*/
+		}
+		.description
+		{
+			font-size: 12px;
+			margin-top: 12px;
+			margin-bottom: 40px;
+			line-height: 140%;
+		}
+		.header-navbar 
+		{
+			text-align: center;
+			/*clear: both;*/
+			width: 100%;
+			margin: 0 0;
+			/*display: flex;*/
+			width: 100%;
+    		top: 0;
+    		background: #ffffff !important;
+    		border-top: 1px solid #d9d9d9;
+    		/*z-index: 50;*/
+        }
+ul.header-link {
+            position: relative;
+		   	display: inline-block;
+		    list-style-type: none;
+		    font: 13px "Montserrat",sans-serif;
+		    text-transform: uppercase;
+		    letter-spacing: 1px;
+		    margin: 0 auto;
+           /* border-bottom: 3px solid #EFF0F1;*/
+            border-top: 1px solid #F8FAFB;
+            /*outline: 1px solid red !important;*/
+            /*width: 15%;*/
+            text-align: center;  
+            padding: 20px 70px;
+            border-radius: 2px;
+                }
+ul:hover {
+            /*background-color: rgba({RGBAccentColor},0.1);*/
+            margin:-3px 0 0 0;
+            border-top: 3px solid #b30000;
+            color:#333333;
+            /*opacity: .6px;*/
+            box-shadow:inset 0 3px transparent;
+            
+        }
+
+a, a:hover {
+            text-decoration: none;
+            word-wrap:break-word; /* allows long words to be able to be broken and wrap onto the next line.*/
+            color:#c60700;
+             /*opacity:.6;*/
+       		}
+a:hover{    opacity:.6;           
+   			/*color:#eeeeee;          this make the lik turn into this color fully when cursor over.*/
+    }
+
+    .main {
+            float: left;
+            color: black;
+			/*background-color: #ffffff;*/
+			font-family: 'Droid Arabic Naskh', serif,'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           text-align: justify;
+            margin: 10px 20px;
+            width: 834px;
+        }
+
+        .post {
+			width: 470px;
+		
+		/*	direction:rtl;*/
+            unicode-bidi: embed;
+            
+			float: left;
+			background-color: #ffffff;
+			border: 2px solid /*{color:Post Borders};*/
+			margin-bottom: 12px;
+			margin-left: 6px;
+			margin-right: 12px;
+			overflow: hidden;
+			box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+        }
+        
